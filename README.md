@@ -14,3 +14,6 @@ A Grails based single-page social networking application aimed at sharing in you
 * Grails
 * Mysql
 All the javascript libraries are included in the package
+
+#License
+MIT
