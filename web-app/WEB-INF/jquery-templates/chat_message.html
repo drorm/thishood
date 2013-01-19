@@ -1,0 +1,22 @@
+<script id="chatMessageTemplate" type="text/x-jquery-tmpl">
+	<tr class="chat_message ${rowClass}" id="messageRow${rowIndex}">
+		<td width="25">
+			<img class="chat_member_icon" id="img${authorId}" src="${authorPhotoUrl}" />
+		</td>
+		<td nowrap="true">
+			<div class="chat_author">
+				{{if authorId == userId}}
+				<span class="chat_author_me">me</span>
+				{{else}}
+				{{html authorName}}
+				{{/if}}
+			</div>
+			<div class="chat_date" nowrap="true">
+				${relativeTime}
+			</div>
+			<td class="chat_content">
+				{{html content}}
+			</td>
+		</td>
+	</tr>
+</script>

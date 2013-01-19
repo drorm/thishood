@@ -1,0 +1,150 @@
+#uploadPreviewContainer {
+	position: fixed;
+	top: 2px;
+	left: 0;
+	padding: 5px 9px;
+	height: 400px;
+	width: 202px;
+	background: #ededed;
+}
+
+#uploadListContainer {
+	margin-left: 220px;
+	padding: 7px 10px;
+}
+
+#uploadButtonContainer {
+	margin-top: 10px;
+}
+
+.thUploadsHeader {
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #9ea8b3;
+}
+
+.thUpload {
+	position: relative;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 8px;
+	height: 46px;
+}
+
+.thUploadSuccess {
+	color: #c5c5c5 !important;
+}
+
+.thUploadError {
+	color: #f33 !important;
+}
+
+.thUploadNew {
+	background: #ffe !important;
+}
+
+.thUploadHighlighted {
+	background: #3875d7 !important;
+	color: #fff;
+}
+
+.thUploadDeleted {
+	background: #ffebeb !important;
+}
+
+.thUpload .thUploadProgressBar {
+	font-size: 0;
+	height: 3px;
+	background-color: #e5e5e5;
+	margin-top: 10px;
+}
+
+.thUploadSuccess .thUploadProgressBar,
+.thUploadError .thUploadProgressBar
+{
+	display: none;
+}
+
+.thUpload .thUploadProgressPercent {
+	font-size: 0;
+	width: 0;
+	height: 3px;
+	background-color: #09f;
+}
+
+.thUpload img {
+	max-width: 48px;
+	max-height: 48px;
+}
+
+.thUpload .thUploadImage {
+	position: absolute;
+	top: 7px;
+	left: 7px;
+	width: 48px;
+	height: 48px;
+	text-align: center;
+}
+
+.thUpload .thUploadPdf {
+	background: url(images/pdf.png);
+}
+
+.thUpload .thUploadOther {
+	background: url(images/other.png);
+}
+
+.thUpload .thUploadInfo {
+	margin: 0 20px 0 55px;
+	overflow: hidden;
+}
+
+.thUpload .thUploadDeleteButton {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #555;
+	line-height: 0.7em;
+	cursor: pointer;
+}
+
+.thUploadHighlighted .thUploadDeleteButton {
+	color: #fff;
+}
+
+.thUpload .thUploadDeleteButton:hover {
+	color: #f00;
+}
+
+.thPreview img {
+	max-width: 200px;
+	max-height: 200px;
+}
+
+.thPreview .thUploadImage {
+	text-align: center;
+}
+
+.thPreview .thUploadPdf {
+	margin: 0 auto;
+	width: 128px;
+	height: 128px;
+	background: url(images/pdf-preview.png);
+}
+
+.thPreview .thUploadOther {
+	margin: 0 auto;
+	width: 128px;
+	height: 128px;
+	background: url(images/other-preview.png);
+}
+
+.thPreview .thUploadInfo {
+	margin: 5px 0;
+	overflow: hidden;
+}
+
+.thUploadButtons {
+	white-space: nowrap;
+}

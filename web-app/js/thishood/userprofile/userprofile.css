@@ -1,0 +1,125 @@
+.thUserProfile {
+	margin: 0 20px 20px 20px;
+	font: 12px 'Lucida Grande', Verdana, Arial, Helvetica, sans-serif;
+}
+
+.thUserProfile hr {
+	margin: 0;
+	height: 1px;
+	background: transparent;
+}
+
+.thUserProfile .highlighted {
+	background: #baffc9 !important;
+}
+
+.thUserProfile .deleted {
+	background: #f00 !important;
+}
+
+.thUserProfile a {
+	color: #01317E;
+	text-decoration: none;
+	font-weight: normal;
+	white-space: nowrap;
+}
+
+.thUserProfile a:hover {
+	text-decoration: underline;
+}
+
+.thUserProfile textarea {
+	width: 98%;
+	height: 20px;
+}
+
+.thUserProfile input[type=text] {
+	width: 200px;
+}
+
+.thUserProfile #profile {
+	padding: 10px 0;
+}
+
+.thUserProfile #profile img {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.thUserProfile h2 {
+	margin: 10px 0;
+}
+
+.thUserProfile #newReference {
+	margin: 10px 0 15px 0;
+}
+
+.thUserProfile #references {
+	border-top: solid 1px #ddd;
+}
+
+.thUserReferenceItem {
+	border-bottom: solid 1px #ddd;
+	padding: 8px 0 10px 0;
+}
+
+.thUserReferenceAuthor {
+	float: left;
+}
+
+.thUserReferenceAuthorImage {
+	display: block;
+	border: 0;
+	cursor: pointer;
+}
+
+/*
+.thUserReferenceScore {
+	display: block;
+	margin-top: 1px;
+	width: 32px;
+	height: 32px;
+}
+
+.thUserReferenceScore1 {
+	background: url(images/score.gif) no-repeat 0 0;
+}
+
+.thUserReferenceScore0 {
+	background: url(images/score.gif) no-repeat -32px 0;
+}
+
+.thUserReferenceScore-1 {
+	background: url(images/score.gif) no-repeat -64px 0;
+}
+*/
+
+.thUserReferenceBody {
+	margin-left: 60px;
+}
+
+.thUserReferenceSubject {
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.thUserReferenceBody .postLinks {
+	margin-top: 7px;
+}
+
+.thUserReferenceBody .isoDate {
+	display: none;
+}
+
+.thUserReferenceBody .relativeTime {
+	font-style: italic;
+}
+
+.thUserReferenceBody .linkButton {
+	color: #01317E;
+	cursor: pointer;
+}
+
+.thUserReferenceBody .linkButton:hover {
+	text-decoration: underline;
+}

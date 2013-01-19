@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/java"/>
+	<classpathentry kind="src" path="src/groovy"/>
+	<classpathentry kind="src" path="grails-app/conf"/>
+	<classpathentry kind="src" path="grails-app/controllers"/>
+	<classpathentry kind="src" path="grails-app/domain"/>
+	<classpathentry kind="src" path="grails-app/services"/>
+	<classpathentry kind="src" path="grails-app/taglib"/>
+	<classpathentry kind="src" path="test/integration"/>
+	<classpathentry kind="src" path="test/unit"/>
+	<classpathentry kind="src" path=".plugin-src-blueprint-1.0.1-grails-app-conf"/>
+	<classpathentry kind="src" path=".plugin-src-blueprint-1.0.1-grails-app-i18n"/>
+	<classpathentry kind="src" path=".plugin-src-blueprint-1.0.1-grails-app-taglib"/>
+	<classpathentry kind="src" path=".plugin-src-constraints-0.5.1-grails-app-i18n"/>
+	<classpathentry kind="src" path=".plugin-src-constraints-0.5.1-grails-app-utils"/>
+	<classpathentry kind="src" path=".plugin-src-constraints-0.5.1-src-java"/>
+	<classpathentry kind="src" path=".plugin-src-jquery-1.4.4.1-grails-app-conf"/>
+	<classpathentry kind="src" path=".plugin-src-jquery-1.4.4.1-grails-app-i18n"/>
+	<classpathentry kind="src" path=".plugin-src-jquery-1.4.4.1-grails-app-services"/>
+	<classpathentry kind="src" path=".plugin-src-jquery-1.4.4.1-grails-app-taglib"/>
+	<classpathentry kind="src" path=".plugin-src-jquery-1.4.4.1-src-groovy"/>
+	<classpathentry kind="src" path=".plugin-src-jquery-validation-1.7.3-grails-app-conf"/>
+	<classpathentry kind="src" path=".plugin-src-jquery-validation-1.7.3-grails-app-taglib"/>
+	<classpathentry kind="src" path=".plugin-src-jquery-validation-ui-1.1.1-grails-app-controllers"/>
+	<classpathentry kind="src" path=".plugin-src-jquery-validation-ui-1.1.1-grails-app-i18n"/>
+	<classpathentry kind="src" path=".plugin-src-jquery-validation-ui-1.1.1-grails-app-services"/>
+	<classpathentry kind="src" path=".plugin-src-jquery-validation-ui-1.1.1-grails-app-taglib"/>
+	<classpathentry kind="src" path=".plugin-src-jquery-validation-ui-1.1.1-grails-app-utils"/>
+	<classpathentry kind="src" path=".plugin-src-jquery-validation-ui-1.1.1-src-groovy"/>
+	<classpathentry kind="src" path=".plugin-src-spring-security-core-1.1-grails-app-conf"/>
+	<classpathentry kind="src" path=".plugin-src-spring-security-core-1.1-grails-app-services"/>
+	<classpathentry kind="src" path=".plugin-src-spring-security-core-1.1-grails-app-taglib"/>
+	<classpathentry kind="src" path=".plugin-src-spring-security-core-1.1-src-java"/>
+	<classpathentry kind="src" path=".plugin-src-spring-security-core-1.1-src-groovy"/>
+	<classpathentry kind="src" path=".plugin-src-tomcat-1.3.6-src-groovy"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.codehaus.groovy/groovy-all/jars/groovy-all-1.7.5.jar" sourcepath="/GRAILS_IVYCACHE/org.codehaus.groovy/groovy-all/sources/groovy-all-1.7.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/user/grails/eclipse-cpvars/GRAILS_IVYCACHE/org.codehaus.groovy/groovy-all/javadocs/groovy-all-1.7.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.8.0.jar" sourcepath="/GRAILS_IVYCACHE/commons-beanutils/commons-beanutils/sources/commons-beanutils-1.8.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/user/grails/eclipse-cpvars/GRAILS_IVYCACHE/commons-beanutils/commons-beanutils/javadocs/commons-beanutils-1.8.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/commons-el/commons-el/jars/commons-el-1.0.jar" sourcepath="/GRAILS_IVYCACHE/commons-el/commons-el/sources/commons-el-1.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/user/grails/eclipse-cpvars/GRAILS_IVYCACHE/commons-el/commons-el/javadocs/commons-el-1.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/commons-validator/commons-validator/jars/commons-validator-1.3.1.jar" sourcepath="/GRAILS_IVYCACHE/commons-validator/commons-validator/sources/commons-validator-1.3.1-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/aopalliance/aopalliance/jars/aopalliance-1.0.jar" sourcepath="/GRAILS_IVYCACHE/aopalliance/aopalliance/sources/aopalliance-1.0-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/jars/concurrentlinkedhashmap-lru-1.0_jdk5.jar" sourcepath="/GRAILS_IVYCACHE/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/sources/concurrentlinkedhashmap-lru-1.0_jdk5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/user/grails/eclipse-cpvars/GRAILS_IVYCACHE/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/javadocs/concurrentlinkedhashmap-lru-1.0_jdk5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/commons-codec/commons-codec/jars/commons-codec-1.4.jar" sourcepath="/GRAILS_IVYCACHE/commons-codec/commons-codec/sources/commons-codec-1.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/user/grails/eclipse-cpvars/GRAILS_IVYCACHE/commons-codec/commons-codec/javadocs/commons-codec-1.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/commons-collections/commons-collections/jars/commons-collections-3.2.1.jar" sourcepath="/GRAILS_IVYCACHE/commons-collections/commons-collections/sources/commons-collections-3.2.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/user/grails/eclipse-cpvars/GRAILS_IVYCACHE/commons-collections/commons-collections/javadocs/commons-collections-3.2.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/commons-io/commons-io/jars/commons-io-1.4.jar" sourcepath="/GRAILS_IVYCACHE/commons-io/commons-io/sources/commons-io-1.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/user/grails/eclipse-cpvars/GRAILS_IVYCACHE/commons-io/commons-io/javadocs/commons-io-1.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/commons-lang/commons-lang/jars/commons-lang-2.4.jar" sourcepath="/GRAILS_IVYCACHE/commons-lang/commons-lang/sources/commons-lang-2.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/user/grails/eclipse-cpvars/GRAILS_IVYCACHE/commons-lang/commons-lang/javadocs/commons-lang-2.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/javax.transaction/jta/jars/jta-1.1.jar" sourcepath="/GRAILS_IVYCACHE/javax.transaction/jta/sources/jta-1.1-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.hibernate/ejb3-persistence/jars/ejb3-persistence-1.0.2.GA.jar" sourcepath="/GRAILS_IVYCACHE/org.hibernate/ejb3-persistence/sources/ejb3-persistence-1.0.2.GA-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/opensymphony/sitemesh/jars/sitemesh-2.4.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.grails/grails-bootstrap/jars/grails-bootstrap-1.3.6.jar" sourcepath="/GRAILS_HOME/src/java">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/Users/user/grails/doc/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.grails/grails-core/jars/grails-core-1.3.6.jar" sourcepath="/GRAILS_HOME/src/java">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/Users/user/grails/doc/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.grails/grails-crud/jars/grails-crud-1.3.6.jar" sourcepath="/GRAILS_HOME/src/java">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/Users/user/grails/doc/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.grails/grails-gorm/jars/grails-gorm-1.3.6.jar" sourcepath="/GRAILS_HOME/src/java">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/Users/user/grails/doc/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.grails/grails-resources/jars/grails-resources-1.3.6.jar" sourcepath="/GRAILS_HOME/src/java">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/Users/user/grails/doc/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.grails/grails-spring/jars/grails-spring-1.3.6.jar" sourcepath="/GRAILS_HOME/src/java">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/Users/user/grails/doc/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.grails/grails-web/jars/grails-web-1.3.6.jar" sourcepath="/GRAILS_HOME/src/java">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/Users/user/grails/doc/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.springframework/org.springframework.core/jars/org.springframework.core-3.0.5.RELEASE.jar" sourcepath="/GRAILS_IVYCACHE/org.springframework/org.springframework.core/sources/org.springframework.core-3.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.springframework/org.springframework.aop/jars/org.springframework.aop-3.0.5.RELEASE.jar" sourcepath="/GRAILS_IVYCACHE/org.springframework/org.springframework.aop/sources/org.springframework.aop-3.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.springframework/org.springframework.aspects/jars/org.springframework.aspects-3.0.5.RELEASE.jar" sourcepath="/GRAILS_IVYCACHE/org.springframework/org.springframework.aspects/sources/org.springframework.aspects-3.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.springframework/org.springframework.asm/jars/org.springframework.asm-3.0.5.RELEASE.jar" sourcepath="/GRAILS_IVYCACHE/org.springframework/org.springframework.asm/sources/org.springframework.asm-3.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.springframework/org.springframework.beans/jars/org.springframework.beans-3.0.5.RELEASE.jar" sourcepath="/GRAILS_IVYCACHE/org.springframework/org.springframework.beans/sources/org.springframework.beans-3.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.springframework/org.springframework.context/jars/org.springframework.context-3.0.5.RELEASE.jar" sourcepath="/GRAILS_IVYCACHE/org.springframework/org.springframework.context/sources/org.springframework.context-3.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.springframework/org.springframework.context.support/jars/org.springframework.context.support-3.0.5.RELEASE.jar" sourcepath="/GRAILS_IVYCACHE/org.springframework/org.springframework.context.support/sources/org.springframework.context.support-3.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.springframework/org.springframework.expression/jars/org.springframework.expression-3.0.5.RELEASE.jar" sourcepath="/GRAILS_IVYCACHE/org.springframework/org.springframework.expression/sources/org.springframework.expression-3.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.springframework/org.springframework.instrument/jars/org.springframework.instrument-3.0.5.RELEASE.jar" sourcepath="/GRAILS_IVYCACHE/org.springframework/org.springframework.instrument/sources/org.springframework.instrument-3.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.springframework/org.springframework.jdbc/jars/org.springframework.jdbc-3.0.5.RELEASE.jar" sourcepath="/GRAILS_IVYCACHE/org.springframework/org.springframework.jdbc/sources/org.springframework.jdbc-3.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.springframework/org.springframework.jms/jars/org.springframework.jms-3.0.5.RELEASE.jar" sourcepath="/GRAILS_IVYCACHE/org.springframework/org.springframework.jms/sources/org.springframework.jms-3.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.springframework/org.springframework.orm/jars/org.springframework.orm-3.0.5.RELEASE.jar" sourcepath="/GRAILS_IVYCACHE/org.springframework/org.springframework.orm/sources/org.springframework.orm-3.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.springframework/org.springframework.oxm/jars/org.springframework.oxm-3.0.5.RELEASE.jar" sourcepath="/GRAILS_IVYCACHE/org.springframework/org.springframework.oxm/sources/org.springframework.oxm-3.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.springframework/org.springframework.transaction/jars/org.springframework.transaction-3.0.5.RELEASE.jar" sourcepath="/GRAILS_IVYCACHE/org.springframework/org.springframework.transaction/sources/org.springframework.transaction-3.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.springframework/org.springframework.web/jars/org.springframework.web-3.0.5.RELEASE.jar" sourcepath="/GRAILS_IVYCACHE/org.springframework/org.springframework.web/sources/org.springframework.web-3.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.springframework/org.springframework.web.servlet/jars/org.springframework.web.servlet-3.0.5.RELEASE.jar" sourcepath="/GRAILS_IVYCACHE/org.springframework/org.springframework.web.servlet/sources/org.springframework.web.servlet-3.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.slf4j/slf4j-api/jars/slf4j-api-1.5.8.jar" sourcepath="/GRAILS_IVYCACHE/org.slf4j/slf4j-api/sources/slf4j-api-1.5.8-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.hibernate/hibernate-core/jars/hibernate-core-3.3.1.GA.jar" sourcepath="/GRAILS_IVYCACHE/org.hibernate/hibernate-core/sources/hibernate-core-3.3.1.GA-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/user/grails/eclipse-cpvars/GRAILS_IVYCACHE/org.hibernate/hibernate-core/javadocs/hibernate-core-3.3.1.GA-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.hibernate/hibernate-commons-annotations/jars/hibernate-commons-annotations-3.1.0.GA.jar" sourcepath="/GRAILS_IVYCACHE/org.hibernate/hibernate-commons-annotations/sources/hibernate-commons-annotations-3.1.0.GA-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.hibernate/hibernate-annotations/jars/hibernate-annotations-3.4.0.GA.jar" sourcepath="/GRAILS_IVYCACHE/org.hibernate/hibernate-annotations/sources/hibernate-annotations-3.4.0.GA-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.aspectj/aspectjweaver/jars/aspectjweaver-1.6.8.jar" sourcepath="/GRAILS_IVYCACHE/org.aspectj/aspectjweaver/sources/aspectjweaver-1.6.8-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.aspectj/aspectjrt/jars/aspectjrt-1.6.8.jar" sourcepath="/GRAILS_IVYCACHE/org.aspectj/aspectjrt/sources/aspectjrt-1.6.8-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/cglib/cglib-nodep/jars/cglib-nodep-2.1_3.jar" sourcepath="/GRAILS_IVYCACHE/cglib/cglib-nodep/sources/cglib-nodep-2.1_3-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/commons-fileupload/commons-fileupload/jars/commons-fileupload-1.2.1.jar" sourcepath="/GRAILS_IVYCACHE/commons-fileupload/commons-fileupload/sources/commons-fileupload-1.2.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/user/grails/eclipse-cpvars/GRAILS_IVYCACHE/commons-fileupload/commons-fileupload/javadocs/commons-fileupload-1.2.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/oro/oro/jars/oro-2.0.8.jar" sourcepath="/GRAILS_IVYCACHE/oro/oro/sources/oro-2.0.8-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/javax.servlet/jstl/jars/jstl-1.1.2.jar" sourcepath="/GRAILS_IVYCACHE/javax.servlet/jstl/sources/jstl-1.1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/user/grails/eclipse-cpvars/GRAILS_IVYCACHE/javax.servlet/jstl/javadocs/jstl-1.1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/commons-dbcp/commons-dbcp/jars/commons-dbcp-1.3.jar" sourcepath="/GRAILS_IVYCACHE/commons-dbcp/commons-dbcp/sources/commons-dbcp-1.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/user/grails/eclipse-cpvars/GRAILS_IVYCACHE/commons-dbcp/commons-dbcp/javadocs/commons-dbcp-1.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/commons-pool/commons-pool/jars/commons-pool-1.5.5.jar" sourcepath="/GRAILS_IVYCACHE/commons-pool/commons-pool/sources/commons-pool-1.5.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/user/grails/eclipse-cpvars/GRAILS_IVYCACHE/commons-pool/commons-pool/javadocs/commons-pool-1.5.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/hsqldb/hsqldb/jars/hsqldb-1.8.0.10.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/net.sf.ehcache/ehcache-core/jars/ehcache-core-1.7.1.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/log4j/log4j/jars/log4j-1.2.16.jar" sourcepath="/GRAILS_IVYCACHE/log4j/log4j/sources/log4j-1.2.16-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/user/grails/eclipse-cpvars/GRAILS_IVYCACHE/log4j/log4j/javadocs/log4j-1.2.16-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.5.8.jar" sourcepath="/GRAILS_IVYCACHE/org.slf4j/jcl-over-slf4j/sources/jcl-over-slf4j-1.5.8-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.5.8.jar" sourcepath="/GRAILS_IVYCACHE/org.slf4j/jul-to-slf4j/sources/jul-to-slf4j-1.5.8-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.5.8.jar" sourcepath="/GRAILS_IVYCACHE/org.slf4j/slf4j-log4j12/sources/slf4j-log4j12-1.5.8-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/apache-taglibs/standard/jars/standard-1.1.2.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/xpp3/xpp3_min/jars/xpp3_min-1.1.3.4.O.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.13.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.hibernate/hibernate-validator/jars/hibernate-validator-3.1.0.GA.jar" sourcepath="/GRAILS_IVYCACHE/org.hibernate/hibernate-validator/sources/hibernate-validator-3.1.0.GA-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/javassist/javassist/jars/javassist-3.11.0.GA.jar" sourcepath="/GRAILS_IVYCACHE/javassist/javassist/sources/javassist-3.11.0.GA-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/antlr/antlr/jars/antlr-2.7.6.jar" sourcepath="/GRAILS_IVYCACHE/antlr/antlr/sources/antlr-2.7.6-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/dom4j/dom4j/jars/dom4j-1.6.1.jar" sourcepath="/GRAILS_IVYCACHE/dom4j/dom4j/sources/dom4j-1.6.1-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.hibernate/hibernate-ehcache/jars/hibernate-ehcache-3.3.1.GA.jar" sourcepath="/GRAILS_IVYCACHE/org.hibernate/hibernate-ehcache/sources/hibernate-ehcache-3.3.1.GA-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/user/grails/eclipse-cpvars/GRAILS_IVYCACHE/org.hibernate/hibernate-ehcache/javadocs/hibernate-ehcache-3.3.1.GA-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.springframework.security/org.springframework.security.core/jars/org.springframework.security.core-3.0.4.RELEASE.jar" sourcepath="/GRAILS_IVYCACHE/org.springframework.security/org.springframework.security.core/sources/org.springframework.security.core-3.0.4.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.springframework.security/org.springframework.security.web/jars/org.springframework.security.web-3.0.4.RELEASE.jar" sourcepath="/GRAILS_IVYCACHE/org.springframework.security/org.springframework.security.web/sources/org.springframework.security.web-3.0.4.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/junit/junit/jars/junit-4.8.1.jar" sourcepath="/GRAILS_IVYCACHE/junit/junit/sources/junit-4.8.1-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.grails/grails-test/jars/grails-test-1.3.6.jar" sourcepath="/GRAILS_HOME/src/java">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/Users/user/grails/doc/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/org.springframework/org.springframework.test/jars/org.springframework.test-3.0.5.RELEASE.jar" sourcepath="/GRAILS_IVYCACHE/org.springframework/org.springframework.test/sources/org.springframework.test-3.0.5.RELEASE-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/javax.servlet/servlet-api/jars/servlet-api-2.5.jar" sourcepath="/GRAILS_IVYCACHE/javax.servlet/servlet-api/sources/servlet-api-2.5-sources.jar"/>
+	<classpathentry kind="var" path="GRAILS_IVYCACHE/javax.servlet/jsp-api/jars/jsp-api-2.1.jar"/>
+	<classpathentry kind="var" path="GRAILS_WORKDIR/projects/thishood/plugins/tomcat-1.3.6/lib/catalina-ant.jar"/>
+	<classpathentry kind="var" path="GRAILS_WORKDIR/projects/thishood/plugins/tomcat-1.3.6/lib/grails-tomcat-plugin-1.0.jar"/>
+	<classpathentry kind="var" path="GRAILS_WORKDIR/projects/thishood/plugins/tomcat-1.3.6/lib/jasper-jdt.jar"/>
+	<classpathentry kind="var" path="GRAILS_WORKDIR/projects/thishood/plugins/tomcat-1.3.6/lib/tomcat-core.jar"/>
+	<classpathentry kind="var" path="GRAILS_WORKDIR/projects/thishood/plugins/tomcat-1.3.6/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="var" path="GRAILS_WORKDIR/projects/thishood/plugins/tomcat-1.3.6/lib/tomcat-jasper.jar"/>
+	<classpathentry kind="var" path="GRAILS_WORKDIR/projects/thishood/plugins/tomcat-1.3.6/lib/tomcat-juli-adapters.jar"/>
+	<classpathentry kind="var" path="GRAILS_WORKDIR/projects/thishood/plugins/tomcat-1.3.6/lib/tomcat-juli.jar"/>
+	<classpathentry kind="lib" path="lib/jsoup-1.5.2.jar"/>
+	<classpathentry kind="con" path="GROOVY_SUPPORT"/>
+	<classpathentry kind="con" path="com.springsource.sts.grails.core.CLASSPATH_CONTAINER"/>
+	<classpathentry excluding="BuildConfig.groovy|*DataSource.groovy|UrlMappings.groovy|Config.groovy|BootStrap.groovy|spring/resources.groovy" kind="src" path=".link_to_grails_plugins/activemq-0.2.1/grails-app/conf">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/activemq-0.2.1/grails-app/i18n">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/activemq-0.2.1/src/groovy">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/activemq-0.2.1/src/java">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="BuildConfig.groovy|*DataSource.groovy|UrlMappings.groovy|Config.groovy|BootStrap.groovy|spring/resources.groovy" kind="src" path=".link_to_grails_plugins/blueprint-1.0.1/grails-app/conf">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/blueprint-1.0.1/grails-app/i18n">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/blueprint-1.0.1/grails-app/taglib">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/cache-headers-1.1.4/grails-app/i18n">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/cache-headers-1.1.4/grails-app/services">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/constraints-0.5.1/grails-app/i18n">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/constraints-0.5.1/grails-app/utils">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/constraints-0.5.1/src/java">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="BuildConfig.groovy|*DataSource.groovy|UrlMappings.groovy|Config.groovy|BootStrap.groovy|spring/resources.groovy" kind="src" path=".link_to_grails_plugins/facebook-graph-0.8/grails-app/conf">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/facebook-graph-0.8/grails-app/services">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/facebook-graph-0.8/grails-app/taglib">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/facebook-graph-0.8/src/groovy">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/famfamfam-1.0.1/grails-app/taglib">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/grails-melody-1.2/src/groovy">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/greenmail-1.2.2/grails-app/controllers">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/greenmail-1.2.2/grails-app/views">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/greenmail-1.2.2/src/groovy">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/include-0.3/grails-app/i18n">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/include-0.3/grails-app/taglib">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/include-0.3/grails-app/views">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/include-0.3/src/java">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/jms-1.1/grails-app/services">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/jms-1.1/grails-app/utils">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/jms-1.1/src/groovy">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/jms-1.1/src/java">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="BuildConfig.groovy|*DataSource.groovy|UrlMappings.groovy|Config.groovy|BootStrap.groovy|spring/resources.groovy" kind="src" path=".link_to_grails_plugins/jquery-1.4.4.1/grails-app/conf">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/jquery-1.4.4.1/grails-app/i18n">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/jquery-1.4.4.1/grails-app/services">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/jquery-1.4.4.1/grails-app/taglib">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/jquery-1.4.4.1/src/groovy">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="BuildConfig.groovy|*DataSource.groovy|UrlMappings.groovy|Config.groovy|BootStrap.groovy|spring/resources.groovy" kind="src" path=".link_to_grails_plugins/jquery-ui-1.8.7/grails-app/conf">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/jquery-ui-1.8.7/grails-app/i18n">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/jquery-ui-1.8.7/grails-app/taglib">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="BuildConfig.groovy|*DataSource.groovy|UrlMappings.groovy|Config.groovy|BootStrap.groovy|spring/resources.groovy" kind="src" path=".link_to_grails_plugins/jquery-validation-1.7.3/grails-app/conf">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/jquery-validation-1.7.3/grails-app/taglib">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/jquery-validation-ui-1.1.1/grails-app/controllers">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/jquery-validation-ui-1.1.1/grails-app/i18n">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/jquery-validation-ui-1.1.1/grails-app/services">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/jquery-validation-ui-1.1.1/grails-app/taglib">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/jquery-validation-ui-1.1.1/grails-app/utils">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/jquery-validation-ui-1.1.1/src/groovy">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/mail-1.0-SNAPSHOT/grails-app/i18n">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/mail-1.0-SNAPSHOT/grails-app/services">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/mail-1.0-SNAPSHOT/grails-app/taglib">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/mail-1.0-SNAPSHOT/grails-app/views">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/mail-1.0-SNAPSHOT/src/groovy">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="BuildConfig.groovy|*DataSource.groovy|UrlMappings.groovy|Config.groovy|BootStrap.groovy|spring/resources.groovy" kind="src" path=".link_to_grails_plugins/quartz-0.4.2/grails-app/conf">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/quartz-0.4.2/grails-app/i18n">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/quartz-0.4.2/grails-app/services">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/quartz-0.4.2/src/groovy">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/quartz-0.4.2/src/java">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/rest-0.6/src/groovy">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/spring-security-appinfo-1.0/grails-app/controllers">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/spring-security-appinfo-1.0/grails-app/views">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="BuildConfig.groovy|*DataSource.groovy|UrlMappings.groovy|Config.groovy|BootStrap.groovy|spring/resources.groovy" kind="src" path=".link_to_grails_plugins/spring-security-core-1.1/grails-app/conf">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/spring-security-core-1.1/grails-app/services">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/spring-security-core-1.1/grails-app/taglib">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/spring-security-core-1.1/src/groovy">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/spring-security-core-1.1/src/java">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="BuildConfig.groovy|*DataSource.groovy|UrlMappings.groovy|Config.groovy|BootStrap.groovy|spring/resources.groovy" kind="src" path=".link_to_grails_plugins/spring-security-ui-0.1.2/grails-app/conf">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/spring-security-ui-0.1.2/grails-app/controllers">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/spring-security-ui-0.1.2/grails-app/domain">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/spring-security-ui-0.1.2/grails-app/i18n">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/spring-security-ui-0.1.2/grails-app/services">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/spring-security-ui-0.1.2/grails-app/taglib">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/spring-security-ui-0.1.2/grails-app/views">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".link_to_grails_plugins/tomcat-1.3.6/src/groovy">
+		<attributes>
+			<attribute name="com.springsource.sts.grails.core.SOURCE_FOLDER" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="web-app/WEB-INF/classes"/>
+</classpath>

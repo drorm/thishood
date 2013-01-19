@@ -1,0 +1,53 @@
+#cropPanel {
+	margin: 4px;
+	overflow: hidden;
+}
+
+#cropHeader {
+	margin-bottom: 4px;
+	font-weight: bold;
+}
+
+#cropOrig {
+	float: left;
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	text-align: center;
+}
+
+#cropPreview {
+	margin-left: 408px;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+}
+
+#cropPreviewViewport {
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+}
+
+#cropButtons {
+	margin-left: 408px;
+	line-height: 200px;
+	text-align: center;
+}
+
+#cropSpinner {
+	position: absolute;
+	top: 209px;
+	left: 291px;
+	width: 42px;
+	height: 42px;
+	background: #fff url(../../../images/spinner.gif) no-repeat 50% 50%;
+	z-index: 1000;
+}
+
+#cropSaveSpinner {
+	display: inline-block;
+	width: 16px;
+	min-height: 16px;
+	background: url(../stream/images/spinner.gif) no-repeat 50% 50%;
+}

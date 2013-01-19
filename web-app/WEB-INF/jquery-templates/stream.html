@@ -1,0 +1,80 @@
+<script id="threadTemplate" type="text/x-jquery-tmpl">
+<div id="thread${threadId}" class="thread">
+	<div class="threadAuthor">
+		<img class="threadAuthorImage image_tiny" id="image${threadId}" src="${userImage}" title="${userName}" onclick="document.location=baseUrl+'/home/viewUserProfile?userId=${userId}'" />
+		<img class="threadGroupImage image_thumb" src="${groupImage}" title="${groupName}" onclick="document.location='?group=${groupId}'" />
+	</div>
+	<div class="threadBody">
+		<a id="author${threadId}" href="javascript:void(0)" onclick="document.location=baseUrl+'/home/viewUserProfile?userId=${userId}'">${userName}</a>@<a href="?group=${groupId}">${groupName}</a>: {{html ThishoodStream.parseMessage(message)}}
+		<div class="postLinks">
+			<span class="isoDate" id="isodate${threadId}">${dateCreated}</span><span class="relativeTime" id="date${threadId}">${ThishoodStream.relativeTime(dateCreated)}</span>
+			{{if $.inArray('COMMENT', actions) != -1}}
+				&middot; <span class="linkButton replyButton" onclick="ThishoodStream.showForm('replyForm${threadId}')">Reply</span>
+			{{/if}}
+			{{if $.inArray('DISABLE_COMMENTS', actions) != -1}}
+				&middot; <span class="linkButton disableCommentsButton" onclick="stream.disableComments(${threadId})">Disable comments</span>
+			{{/if}}
+			{{if $.inArray('ENABLE_COMMENTS', actions) != -1}}
+				&middot; <span class="linkButton enableCommentsButton" onclick="stream.enableComments(${threadId})">Enable comments</span>
+			{{/if}}
+			{{if $.inArray('SEND_MESSAGE', actions) != -1}}
+				&middot; <span class="linkButton" onclick="HomeModule.openNewMessageDialog(${userId});">Send message</span>
+			{{/if}}
+			{{if $.inArray('DELETE', actions) != -1}}
+				&middot; <span class="linkButton deleteReplyButton" onclick="stream.deleteThread(${threadId})">Delete</span>
+			{{/if}}
+		</div>
+		<div id="replyForm${threadId}Container" {{if repliesCount == 0}}style="display:none"{{/if}}>
+			<div class="threadPointer"></div>
+			<div id="replies${threadId}">
+				{{if repliesCount > replies.length}}
+					<div class="reply">
+						<span class="linkButton showOlderRepliesButton" onclick="stream.getReplies(${threadId})">
+							Show ${repliesCount - replies.length} older {{if repliesCount - replies.length > 1}}replies{{else}}reply{{/if}} &raquo;
+						</span>
+					</div>
+				{{/if}}
+				{{tmpl(replies) "#replyTemplate"}}
+			</div>
+			<div class="reply">
+				<div id="replyForm${threadId}Placeholder" class="createReply" onclick="ThishoodStream.showForm('replyForm${threadId}')">
+					Write a reply...
+				</div>
+				<form id="replyForm${threadId}" style="display:none">
+					<input type="hidden" name="threadId" value="${threadId}" />
+					<textarea id="replyForm${threadId}Textarea" name="reply"></textarea>
+					<input type="button" id="replyForm${threadId}Button" value="Reply" onclick="stream.createReply(this.form)" />
+				    <span id="replyForm${threadId}Spinner" class="thPostSpinner" style="display:none">&nbsp;</span>
+				</form>
+			</div>
+		</div>
+		<hr/>
+	</div>
+</div>
+</script>
+
+<script id="replyTemplate" type="text/x-jquery-tmpl">
+<div id="reply${replyId}" class="reply">
+	<img class="replyAuthorImage image_thumb" id="imager${replyId}" src="${userImage}" title="${userName}" onclick="document.location=baseUrl+'/home/viewUserProfile?userId=${userId}'" />
+	<div class="replyBody">
+		<a id="authorr${replyId}" href="javascript:void(0)" onclick="document.location=baseUrl+'/home/viewUserProfile?userId=${userId}'">${userName}</a>: {{html ThishoodStream.parseMessage(reply)}}
+		<div class="postLinks">
+			<span class="isoDate" id="isodater${replyId}">${dateCreated}</span><span class="relativeTime" id="dater${replyId}">${ThishoodStream.relativeTime(dateCreated)}</span>
+			{{if $.inArray('CREATE', actions) != -1}}
+				&middot; <span class="linkButton replyButton" onclick="ThishoodStream.showForm('replyForm${threadId}')">Reply</span>
+			{{/if}}
+			{{if $.inArray('SEND_MESSAGE', actions) != -1}}
+				&middot; <span class="linkButton" onclick="HomeModule.openNewMessageDialog(${userId});">Send message</span>
+			{{/if}}
+			{{if $.inArray('DELETE', actions) != -1}}
+				&middot; <span class="linkButton deleteReplyButton" onclick="stream.deleteReply(${replyId})">Delete</span>
+			{{/if}}
+		</div>
+	</div>
+	<hr/>
+</div>
+</script>
+
+<script id="userOnlineTemplate" type="text/x-jquery-tmpl">
+	<img class="th_userIcon" src="${image}" title="${name}" />
+</script>

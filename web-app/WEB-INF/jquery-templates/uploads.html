@@ -1,0 +1,46 @@
+<script id="uploadTemplate" type="text/x-jquery-tmpl">
+<div id="upload${uploadId}" class="thUpload" {{if hide}}style="display:none"{{/if}} onclick="uploadManager.previewUpload(${uploadId})">
+	{{if ThishoodUploads.isImage(contentType)}}
+		<div class="thUploadImage"><img class="image_thumb" src="${imageSmallUrl}${typeof force == 'boolean' ? '&r=' + Math.random() : ''}" alt="${filename}" title="${filename}" /></div>
+	{{else ThishoodUploads.isPdf(contentType)}}
+		<div class="thUploadImage thUploadPdf"></div>
+	{{else}}
+		<div class="thUploadImage thUploadOther"></div>
+	{{/if}}
+	<div class="thUploadInfo">${filename}</div>
+	<div class="thUploadDeleteButton" onclick="uploadManager.deleteUpload(${uploadId})">&#xD7;</div>
+</div>
+</script>
+
+<script id="queueItemTemplate" type="text/x-jquery-tmpl">
+<div id="queueItem${fileId}" class="thUpload">
+	<div>${filename} (${ThishoodUploads.niceLength(length)}) - <span id="queueItemStatus${fileId}"></span></div>
+	<div class="thUploadProgressBar"><div id="queueItemProgress${fileId}" class="thUploadProgressPercent"></div></div>
+	<div class="thUploadDeleteButton" onclick="uploadManager.cancelUpload('${fileId}')">&#xD7;</div>
+</div>
+</script>
+
+<script id="previewTemplate" type="text/x-jquery-tmpl">
+{{if ThishoodUploads.isImage(contentType)}}
+	<div class="thUploadImage"><img class="image_small" src="${imageLargeUrl}${typeof force == 'boolean' ? '&r=' + Math.random() : ''}" alt="${filename}" title="${filename}" /></div>
+{{else ThishoodUploads.isPdf(contentType)}}
+	<div class="thUploadImage thUploadPdf"></div>
+{{else}}
+	<div class="thUploadImage thUploadOther"></div>
+{{/if}}
+<div class="thUploadInfo">
+	${filename}<br/>
+	${ThishoodUploads.niceLength(length)}<br/>
+	Uploaded ${ThishoodStream.relativeTime(dateCreated)}<br/>
+</div>
+<div class="thUploadButtons">
+	<div onclick="uploadManager.use(${uploadId})" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onmouseover="$(this).addClass('ui-state-hover')" onmouseout="$(this).removeClass('ui-state-hover')">
+		<span class="ui-button-text">Use This File</span>
+	</div>
+	{{if ThishoodUploads.isImage(contentType)}}
+		<div onclick="uploadManager.crop(${uploadId})" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onmouseover="$(this).addClass('ui-state-hover')" onmouseout="$(this).removeClass('ui-state-hover')">
+			<span class="ui-button-text">Crop Image</span>
+		</div>
+	{{/if}}
+</div>
+</script>

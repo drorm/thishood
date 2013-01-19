@@ -1,0 +1,19 @@
+<script id="referenceTemplate" type="text/x-jquery-tmpl">
+<div id="reference${referenceId}" class="thUserReferenceItem">
+	<div class="thUserReferenceAuthor">
+		<img class="thUserReferenceAuthorImage image_tiny" src="${userPhotoUrl}" title="${displayName}" onclick="document.location=baseUrl+'/home/viewUserProfile?userId=${userId}'" />
+		<div class="thUserReferenceScore thUserReferenceScore${score}" title="${score > 0 ? 'Positive' : score < 0 ? 'Negative' : 'Neutral'}"></div>
+	</div>
+	<div class="thUserReferenceBody">
+		<div class="thUserReferenceSubject">{{html ThishoodStream.parseMessage(subject)}}</div>
+		<div class="thUserReferenceMessage">{{html ThishoodStream.parseMessage(message)}}</div>
+		<div class="postLinks">
+			<span class="isoDate" id="isodate${threadId}">${dateCreated}</span><span class="relativeTime" id="date${threadId}">${ThishoodStream.relativeTime(dateCreated)}</span>
+			{{if canDelete}}
+				&middot; <span class="linkButton deleteReferenceButton" onclick="profile.deleteReference(${referenceId})">Delete</span>
+			{{/if}}
+		</div>
+		<hr/>
+	</div>
+</div>
+</script>

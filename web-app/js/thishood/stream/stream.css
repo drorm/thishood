@@ -1,0 +1,238 @@
+.thStream {
+	margin: 0 20px 0 0;
+	font: 12px 'Lucida Grande', Verdana, Arial, Helvetica, sans-serif;
+}
+
+#streamSpinner {
+	margin-top: 10px;
+	height: 42px;
+	background: url(../../../images/spinner.gif) no-repeat 50% 0;
+}
+
+.thPostSpinner {
+	display: inline-block;
+	width: 16px;
+	min-height: 16px;
+	background: url(images/spinner.gif) no-repeat 50% 50%;
+}
+
+.thStream hr {
+	margin: 0;
+	height: 1px;
+	background: transparent;
+}
+
+.thStream .thread_heading {
+	padding: 1em;
+}
+
+.thStream .thread {
+	border-bottom: solid 1px #ddd;
+	padding: 2px 0 10px 0;
+}
+
+.thStream .new {
+	background: #ffe !important;
+}
+
+.thStream .highlighted {
+	background: #baffc9 !important;
+}
+
+.thStream .deleted {
+	background: #f00 !important;
+}
+
+.thStream .endNewThreads {
+	border-bottom: dotted 3px #70a1ce;
+}
+
+.thStream .thread a {
+	color: #01317E;
+	text-decoration: none;
+	font-weight: normal;
+	white-space: nowrap;
+}
+
+.thStream .thread a:hover {
+	text-decoration: underline;
+}
+
+.thStream textarea {
+	width: 98%;
+	height: 20px;
+}
+
+.thStream .createThread {
+	border: solid 1px #ccc;
+	padding: 20px 15px;
+	background: #fff;
+	color: #777;
+	font-size: 14px;
+}
+
+.thStream .threadAuthor {
+	float: left;
+}
+
+.thStream .threadAuthorImage {
+	display: block;
+	cursor: pointer;
+}
+
+.thStream .threadGroupImage {
+	display: block;
+	margin-top: 1px;
+	cursor: pointer;
+}
+
+.thStream .threadBody {
+	margin-left: 60px;
+}
+
+.thStream .threadPointer {
+	height: 12px;
+	background: #fff url(images/thread-pointer.png) no-repeat 18px 100%;
+}
+
+.thStream .new .threadPointer {
+	background-color: #ffe;
+}
+
+.thStream .reply {
+	background: #ebebeb;
+	border-bottom: solid 1px #ddd;
+	margin-bottom: 2px;
+	padding: 6px;
+	font-size: 11px;
+}
+
+.thStream .replyAuthorImage {
+	float: left;
+	cursor: pointer;
+}
+
+.thStream .replyBody {
+	margin-left: 40px;
+}
+
+.thStream .createReply {
+	border: solid 1px #ccc;
+	padding: 4px 6px;
+	background: #fff;
+	color: #aaa;
+}
+
+.thStream .postLinks {
+	margin-top: 7px;
+}
+
+.thStream .relativeTime {
+	font-style: italic;
+}
+
+.thStream .linkButton {
+	color: #01317E;
+	cursor: pointer;
+}
+
+.thStream .linkButton:hover {
+	text-decoration: underline;
+}
+
+.thStream .plainButton {
+	padding: 5px 10px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	background-color: #e6e6e6;
+	background-image: -moz-linear-gradient(100% 100% 90deg, #e6e6e6, #fefefe);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fefefe), to(#e6e6e6));
+	border: 1px solid #ddd;
+	border-color: #ddd #ddd #ccc;
+	color: #333;
+	text-shadow: 1px 1px 0 #fff;
+	cursor: pointer;
+}
+
+.thStream .plainButton:hover,
+.thStream .plainButton:focus
+{
+	background-color: #d5d5d5;
+	background-image: -moz-linear-gradient(100% 100% 90deg, #e6e6e6, #f8f8f8);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f8f8f8), to(#e6e6e6));
+	border-color: #999 #999 #888;
+	color: #000;
+	text-decoration: none;
+	outline: none;
+}
+
+.thStream .leaveGroupButton span {
+	padding-left: 20px;
+	background: transparent url(images/remove-grey.gif) no-repeat 0 50%;
+}
+
+.thStream .newMessagesButton {
+	margin: 10px 0;
+	border: 1px solid #BFCEEA;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	padding: 6px 5px;
+	background-color: #E7F0FE;
+	text-align: center;
+	color: #333;
+	cursor: pointer;
+}
+
+.thStream .newMessagesButton:hover {
+	text-decoration: none;
+	background-color: #E0ECFF;
+	border-color: #94B2EA;
+}
+
+.thStream .newMessagesButton span {
+	padding-left: 15px;
+	background: transparent url(images/unread-icon.gif) no-repeat 0 40%;
+}
+
+.thStream .moreButton {
+	height: 22px;
+	line-height: 1.5em;
+	margin: 20px auto 0 auto;
+	padding: 6px 0;
+	background: #fff url(images/more-button.png) repeat-x 0 0;
+	border-color: #ddd #aaa #aaa #ddd;
+	border-style: solid;
+	border-width: 1px;
+	outline-color: -moz-use-text-color;
+	outline-style: none;
+	outline-width: medium;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+.thStream .moreButton:hover {
+	border-color: #bbb;
+	background-position: left -78px;
+	text-decoration: none;
+}
+
+.thStream .isoDate {
+	display: none;
+}
+
+
+
+
+/*  --------------------------------------------------------------- */
+.post_name {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 22px;
+	color: #004363;
+}

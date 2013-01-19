@@ -1,0 +1,427 @@
+.field-error {
+    color: #ff0000;
+    padding-left: 10px;
+}
+
+.s2ui_hidden_button {
+        float: right;
+        height: 0;
+        left: 1px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        width: 0;
+        z-index: -1000;
+        border: 0;
+        background: white;
+}
+
+.th_centered {
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.th_hidden {
+	display:none;
+	visibility:hidden;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.th_border {
+		border:1px solid #DDDDDD;
+			margin: -1px; 
+}
+
+.th_userImage {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+.th_userIcon {
+	margin: 0 4px 4px 0;
+	cursor: pointer;
+}
+
+
+#createGroupContainer {
+	padding-left: 15px;
+	padding-bottom: .5em;
+}
+
+#createGroupContainer LABEL.error{
+	display: block;
+}
+
+#editGroupContainer {
+	padding-left: 15px;
+	padding-bottom: .5em;
+}
+
+#hoodListContainer {
+	padding-bottom: .5em;
+}
+
+#createHoodContainer {
+	padding-left: 15px;
+	padding-bottom: .5em;
+}
+
+#createHoodContainer LABEL.error{
+	display: block;
+}
+
+#editHoodContainer {
+	padding-left: 15px;
+	padding-bottom: .5em;
+}
+
+.menublock{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menublock h1 {
+    display: block;
+    padding: 3px 0 5px 3px;
+    color: #333333;
+    margin: 0px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.menu-sub-actions{
+	/**
+	margin-top: 8px;
+	margin-bottom: 8px;
+	**/
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-top: solid 1px #CECECE;
+	font-size: 10px;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menu-sub-actions ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+.menu-sub-actions li{
+	margin: 0px;
+	padding: 2px;
+	padding-left: 0px;
+}
+
+.settingsGroupsTab .headerContainer {
+	font-size: 14pt;
+	font-weight: bold;
+}
+.settingsGroupsTab .createGroupContainer {
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+}
+.settingsGroupsTab .createGroupContainer .createGroupButton {
+	border: 1px solid #000;
+	background-color: #EEE;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.settingsGroupsTab .pseudoHref, #wizardJoinGroups .pseudoHref {
+	cursor: hand;
+	cursor: pointer;
+	color: #0000FF;
+}
+
+.settingsGroupsTab .noGroupsMessage {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 11pt;
+}
+
+.settingsGroupsTab .noGroupsMessage:first-child {
+	font-size: 12pt;
+}
+
+/*
+ * Sidebar widget like news, group list, etc
+ */
+.sidebar_widget {
+		background: white url(../images/bg-widget-box.gif) repeat-x left top;
+		border: solid 1px #CECECE;
+		border-radius: 6px;
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+		border-bottom-width: 2px;
+		margin-bottom: 15px;
+		border-top-left-radius: 6px 6px;
+		border-top-right-radius: 6px 6px;
+		border-bottom-right-radius: 6px 6px;
+		border-bottom-left-radius: 6px 6px;
+}
+
+
+/*
+ * Heading in the Sidebar widget
+ */
+.sidebar_widget h1 {
+		font-size: 12px;
+		text-shadow: 0 1px 0 white;
+		color: black;
+		line-height: 25px;
+		padding: 0 15px;
+}
+/*
+ * Content in the Sidebar widget
+ */
+.sidebar_widget .content {
+	padding: 8px;
+}
+
+.sideBarNews {
+	padding: 8px;
+}
+
+/*
+ * Buttons in settings
+ */
+#settingsTab .ui-button {
+	margin: .5em;
+}
+
+.th_heading {
+		padding:8px;
+		margin:-1em;
+		font-size: 18px;
+		font-weight: bold;
+		color: black;
+		line-height: 22px;
+		color: #004363;
+}
+
+.homePageErrorContainer {
+	border: 1px solid #900;
+	background-color: #C00;
+	color: yellow;
+	font-size: 14pt;
+	text-align: center;
+	margin-left: 190px;
+}
+
+#groupsContextMenuTrigger {
+	float: right;
+	margin-top: 2px;
+	cursor: hand;
+	cursor: pointer;
+	display: none;
+}
+  
+div.myGroupsContextMenu {
+	z-index: 9999;
+	margin: 0; 
+	padding: 0;
+	width: 170px;  
+	border-width: 0;
+	position: relative;
+	top: 0px;
+	right:-160px;
+	display: none;
+}
+
+div.myGroupsContextMenu ul {
+	border-width: 0;
+	position: absolute;  
+	list-style: none;
+	top: 0;
+	left: 0;
+}
+
+div.myGroupsContextMenu ul li:first-child {  
+	margin: 0;
+	padding: 0;  
+	clear: both;  
+	width: 170px;
+	border-top: 1px solid black;
+}
+div.myGroupsContextMenu ul li a {
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	padding: 1px;  
+	background-color: white;
+	float: left;  
+	padding-left: 20px;
+	width: 166px;
+	font-weight: bold;
+	cursor: hand;
+	cursor: pointer;
+}
+div.myGroupsContextMenu ul li a:hover {  
+	background: #222 url(dropdown_linkbg.gif) no-repeat 10px center;  
+}
+
+.thAttachment {
+	line-height: 48px;
+}
+
+.thAttachment span {
+	display: inline-block;
+	width: 48px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.thAttachment img {
+	max-width: 48px;
+	max-height: 48px;
+	vertical-align: middle;
+}
+
+#inboxMessagesCount {
+	font-weight: normal;
+}
+
+.inboxMessagesCountZero {
+	color: #CCC;
+}
+
+#messageListContainer {
+	padding: 10px;
+}
+
+#messageListContainer .messageListTitle {
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+
+// ------------------------------------------
+
+.chatMessage {
+	border: 1px solid black;
+	padding: 10px;
+	margin: 2px;
+}
+
+.chatMessage .picture IMG {
+	width: 48px;
+}
+
+.chatMessage .author {
+	vertical-align: middle;
+}
+
+.chatMessage .author .relativeTime {
+	font-style: italic;
+}
+
+.chatMessage .content {
+}
+
+.chatMessage .content .topic {
+	font-weight: bold;
+}
+
+.chatMessage .hovered {
+	text-decoration: underline;
+}
+
+.chat {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.chat .chat_message_topic {
+	background-color: #dcdcf6;
+	padding: 2px;
+	font-weight:bold;
+	font-size: 13px;
+}
+
+.chat .chat_author {
+	font-weight:bold;
+}
+
+.chat_member_icon{
+	width: 25px;
+}
+
+.chat .chat_date {
+	font-weight:bold;
+	color: #8c8c8c;
+}
+
+.chat_message {
+}
+
+.chat_message_unread td {
+	background-color: #ffff99 !important;
+}
+
+.chat_message .chat_author {
+	font-weight:bold;
+	text-align: left;
+}
+
+.chat_author .chat_author_me {
+	color: #00cc33;
+}
+
+.chat_message .chat_content {
+	width: 100%;
+	padding-left:5px;
+	padding-right:5px;
+	word-wrap: break-word;
+}
+.chat_message .chat_date {
+	color: #8c8c8c;
+}
+
+#previousMessagesTable {
+	width: 100%;
+}
+
+#chat_message_topic_placeholder TEXTAREA {
+	border: 1px solid red;
+}
+
+.thGroupTypeMARKET {
+	color: #996633;
+}
+
+.thGroupTypeHOOD {
+	color: #226644;
+}
+
+.thGroupTypeCityWide {
+	color: #009;
+}
+
+.thDialogSpinner {
+	padding-left: 47px;
+	background: url(../images/spinner.gif) no-repeat 0 50%;
+}
+
+.image_thumb {
+	width: 30px;
+}
+
+.image_tiny {
+	width: 50px;
+}
+
+.image_small {
+	width: 130px;
+}

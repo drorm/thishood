@@ -1,0 +1,51 @@
+.thResource {
+	margin: 0 20px 20px 20px;
+	font: 12px 'Lucida Grande', Verdana, Arial, Helvetica, sans-serif;
+}
+
+.thResource p {
+	margin: 1.12em 0;
+}
+
+.thResource p{
+	margin: 1.12em 0;
+}
+
+/*
+ * Override blueprint's 2em indent
+ */
+.thResource p + p {
+	text-indent: 0px;
+}
+
+.thResourceSection {
+	margin: 20px 0;
+}
+
+.thResourceHeader {
+	font-weight: bold;
+}
+
+.thResourceLinkButton {
+	font-weight: bold;
+	color: #01317E;
+	cursor: pointer;
+}
+
+.thResourceLinkButton:hover {
+	text-decoration: underline;
+}
+
+.thResourceInput,
+.thResourceTextarea
+{
+	width: 98%;
+}
+
+.thResourceTextarea {
+	height: 500px;
+}
+
+.thResourceUpload {
+	margin: 5px 0;
+}

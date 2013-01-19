@@ -1,0 +1,14 @@
+<script id="attachmentTemplate" type="text/x-jquery-tmpl">
+<span class="thAttachment">
+	<span>
+		{{if ThishoodUploads.isImage(contentType)}}
+			<a href="${url}"><img src="${url}" /></a>
+		{{else ThishoodUploads.isPdf(contentType)}}
+			<a href="${url}"><img src="${baseUrl}/js/thishood/uploads/images/pdf.png" /></a>
+		{{else}}
+			<a href="${url}"><img src="${baseUrl}/js/thishood/uploads/images/other.png" /></a>
+		{{/if}}
+	</span>
+	<a href="${url}">${filename}</a>
+</span>
+</script>

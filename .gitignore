@@ -1,0 +1,9 @@
+target/
+*DB.properties
+*DB.script
+web-app/WEB-INF/classes
+web-app/files/*.jpg
+web-app/files/*
+my.bat
+/.idea
+/recreate.sql

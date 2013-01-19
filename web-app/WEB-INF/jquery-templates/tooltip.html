@@ -1,0 +1,12 @@
+<script id="tooltipTemplate" type="text/x-jquery-tmpl">
+<div class="thTooltip">
+	<div class="thTooltipTitle">${first} ${middle} ${last}</div>
+	<div class="thTooltipClose" onclick="tooltip.hide()">&#xD7;</div>
+	<hr/>
+	<div class="thTooltipBody">
+		<img src="${image}" title="${userName}" />
+		{{html ThishoodStream.nl2br(ThishoodStream.escapeHtml(aboutMe))}}
+	</div>
+	<hr/>
+</div>
+</script>
